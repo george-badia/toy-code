@@ -100,12 +100,12 @@ The Speed Checker application assesses the speed of a driver and calculates the 
 - readline-sync
 
 ## Code Structure
-- The program uses the readline-sync module to interact with the user in the terminal.
-- The TaxCalculation function calculates the PAYE (tax) based on the gross salary.
-- The NHIFCalculation function calculates the NHIF deductions based on the gross salary.
-- The NSSFCalculation function calculates the NSSF deductions based on the gross salary.
-- The NetSalaryCalculation function orchestrates the process of calculating the net salary by calling the tax, NHIF, and NSSF calculation functions and then computing the net salary.
-- The user inputs the basic salary and benefits, which are then used to compute and display the gross salary, PAYE (tax), NHIF deduction, NSSF deduction, and net salary.
+- The program uses the `readline-sync module` to interact with the user in the terminal.
+- The `TaxCalculation function` calculates the PAYE (tax) based on the gross salary.
+- The `NHIFCalculation function` calculates the NHIF deductions based on the gross salary.
+- The `NSSFCalculation function` calculates the NSSF deductions based on the gross salary.
+- The `NetSalaryCalculation function` orchestrates the process of calculating the net salary by calling the tax, NHIF, and NSSF calculation functions and then computing the `net salary`.
+- The `user inputs` the `basic salary` and `benefits`, which are then used to compute and display the `gross salary, PAYE (tax), NHIF deduction, NSSF deduction, and net salary`.
 
 ## Support and Contact Details
 
