@@ -1,6 +1,6 @@
 # week-code-challenge
 
-#### Speed Checker, July 2024
+# Speed Checker, July 2024
 
 This is an application called Speed Checker that helps determine the demerit points a driver acquires for speeding.
 
@@ -19,7 +19,7 @@ The Speed Checker application assesses the speed of a driver and calculates the 
 - GitHub account
 
 1. Open your terminal and navigate to the desired directory.
-2. Clone the repository from .
+2. Clone the repository from https://github.com/george-badia/toy-code.
 3. Clone the repository using the SSH key.
 4. Open the cloned repository in Visual Studio Code.
 5. Start debugging the application.
@@ -46,7 +46,7 @@ This Grade Calculator is a simple program that calculates a student's grade base
 To run the Net Salary Calculator, follow these steps:
 
 Ensure you have Node.js installed on your machine.
-Clone the repository containing the code.
+Clone the repository https://github.com/george-badia/toy-code containing the code.
 Open a terminal and navigate to the directory where the code is located.
 Install the necessary dependencies by running: npm install readline-sync
 Run the program by executing the following command: node netSalaryCalculator.js
@@ -88,7 +88,7 @@ The Speed Checker application assesses the speed of a driver and calculates the 
 - GitHub account
 
 1. Open your terminal and navigate to the desired directory.
-2. Clone the repository from .
+2. Clone the repository from https://github.com/george-badia/toy-code .
 3. Clone the repository using the SSH key.
 4. Open the cloned repository in Visual Studio Code.
 5. Start debugging the application.
