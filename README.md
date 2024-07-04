@@ -44,13 +44,12 @@ This Grade Calculator is a simple program that calculates a student's grade base
 
 ## Instructions/installation set-up
 To run the Grade generator, follow these steps:
-
-Ensure you have Node.js installed on your machine.
-Clone the repository https://github.com/george-badia/toy-code containing the code.
-Open a terminal and navigate to the directory where the code is located.
-Install the necessary dependencies by running: `npm install readline-sync`
-Run the program by executing the following command: `node gradegenerator.js`
-Follow the prompts to enter the student's marks. The program will then display the grade of the student.
+- Ensure you have Node.js installed on your machine.
+- Clone the repository https://github.com/george-badia/toy-code containing the code.
+- Open a terminal and navigate to the directory where the code is located.
+- Install the necessary dependencies by running: `npm install readline-sync`
+- Run the program by executing the following command: `node gradegenerator.js`
+- Follow the prompts to enter the student's marks. The program will then display the grade of the student.
 ## Technologies Used
 - JavaScript
 - Node.js
