@@ -1,7 +1,8 @@
 const readline = require('readline-sync');
 
-// Function to calculate PAYE (tax)
+// Function for calculat PAYE (tax)
 function TaxCalculation(grossSalary) {
+     //  tax Calculated based on different salary pocketed
     if (grossSalary <= 24000) {
         return grossSalary * 0.10;
     } else if (grossSalary <= 32333) {
@@ -15,7 +16,7 @@ function TaxCalculation(grossSalary) {
     }
 }
 
-// Function to calculate NHIF deductions
+// Function tfo calculate NHIF deductions
 function NHIFCalculation(grossSalary) {
     if (grossSalary <= 5999) return 150;
     else if (grossSalary <= 7999) return 300;
@@ -36,7 +37,8 @@ function NHIFCalculation(grossSalary) {
     else return 1700;
 }
 
-// Function to calculate NSSF deductions
+//  calculate NSSF deductions 
+//  NSSF deductions are based on salary tiers
 function NSSFCalculation(grossSalary) {
     const tier1 = Math.min(grossSalary, 6000) * 0.06;
     const tier2 = Math.max(0, grossSalary - 6000) * 0.06;
@@ -60,14 +62,14 @@ function NetSalaryCalculation(basicSalary, benefits) {
     };
 }
 
-// Get user inputs
+// Get user inputs,the benefits and basic salary
 const basicSalary = parseFloat(readline.question("Enter basic salary: "));
 const benefits = parseFloat(readline.question("Enter benefits: "));
 
 // Calculate net salary
 const salaryDetails = NetSalaryCalculation(basicSalary, benefits);
 
-// Display the results
+// Display the results,
 console.log(`Gross Salary: ${salaryDetails.grossSalary.toFixed(2)}`);
 console.log(`PAYE (Tax): ${salaryDetails.payee.toFixed(2)}`);
 console.log(`NHIF Deduction: ${salaryDetails.nhif.toFixed(2)}`);
