@@ -50,8 +50,7 @@ Clone the repository https://github.com/george-badia/toy-code containing the cod
 Open a terminal and navigate to the directory where the code is located.
 Install the necessary dependencies by running: npm install readline-sync
 Run the program by executing the following command: node netSalaryCalculator.js
-Follow the prompts to enter the basic salary and benefits. The program will then display the calculated gross salary, PAYE (tax), NHIF deduction, NSSF deduction, and net salary.
-
+Follow the prompts to enter the basic salary and benefits. The program will then display the grade of the student.
 ## Technologies Used
 - JavaScript
 - Node.js
@@ -76,10 +75,6 @@ The Salary Calculator application calculates the net salary of an employee based
 ## By **George Badia**
 
 This project was created and is the sole property of George Badia.
-
-## Description
-
-The Speed Checker application assesses the speed of a driver and calculates the demerit points acquired based on the speed limit. If the driver exceeds the speed limit, demerit points are calculated. If the acquired points exceed the limit, the license is suspended.
 
 ## Setup/Installation Requirements
 
