@@ -70,6 +70,7 @@ Apache License 2.0
 
 # Salary Calculator application, july 2024
 
+## Description
 The Salary Calculator application calculates the net salary of an employee based on the basic salary and benefits provided. It takes into account PAYE (tax), NHIF deductions, and NSSF deductions to provide the final net salary amount.
 
 ## By **George Badia**
