@@ -43,14 +43,14 @@ Apache License 2.0
 This Grade Calculator is a simple program that calculates a student's grade based on the marks entered. The user is prompted to input the student's marks, and the program validates the input to ensure it falls within the range of 0 to 100. The grade is then determined based on the specified criteria.
 
 ## Instructions/installation set-up
-To run the Net Salary Calculator, follow these steps:
+To run the Grade generator, follow these steps:
 
 Ensure you have Node.js installed on your machine.
 Clone the repository https://github.com/george-badia/toy-code containing the code.
 Open a terminal and navigate to the directory where the code is located.
-Install the necessary dependencies by running: npm install readline-sync
-Run the program by executing the following command: node netSalaryCalculator.js
-Follow the prompts to enter the basic salary and benefits. The program will then display the grade of the student.
+Install the necessary dependencies by running: `npm install readline-sync`
+Run the program by executing the following command: `node gradegenerator.js`
+Follow the prompts to enter the student's marks. The program will then display the grade of the student.
 ## Technologies Used
 - JavaScript
 - Node.js
@@ -82,12 +82,15 @@ This project was created and is the sole property of George Badia.
 - Linux or WSL for Windows users
 - Visual Studio Code installed
 - GitHub account
+- Ensure you have Node.js installed on your machine.
 
 1. Open your terminal and navigate to the desired directory.
 2. Clone the repository from https://github.com/george-badia/toy-code .
 3. Clone the repository using the SSH key.
 4. Open the cloned repository in Visual Studio Code.
-5. Start debugging the application.
+5. Install the necessary dependencies by running: `npm install readline-sync`
+6. Run the program by executing the following command: `node salarycalculator.js`
+Follow the prompts to enter the `basic salary` and `benefits`. which are then used to compute and display the `gross salary, PAYE (tax), NHIF deduction, NSSF deduction, and net salary`.
    
 ## Technologies Used
 
